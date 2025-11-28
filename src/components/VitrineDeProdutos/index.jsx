@@ -1,3 +1,4 @@
+import "./VitrineDeProdutos.scss";
 
 import olhos from "../../assets/olhos.png";
 import rosto from "../../assets/rosto.png";
@@ -7,7 +8,7 @@ import tendencias from "../../assets/tendencia.png";
 function VitrineDeProdutos (){
     return(
 
-        <div>
+        <div className="vitrine">
             <h2>LOOKS E DICAS DE MAQUIAGEM</h2>
 
             <img src={olhos} alt="olhos" />

@@ -1,13 +1,19 @@
+import Banner from './components/Banner';
+import BannerDois from './components/BannerDois';
 import Header from './components/Header';
 import Lançamentos from "./components/Lançamentos";
 import VitrineDeProdutos from "./components/VitrineDeProdutos";
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <>
     < Header/>,
-    <VitrineDeProdutos/>
-    <Lançamentos/>
+    <Banner/>,
+    <VitrineDeProdutos/>,
+    <Lançamentos/>,
+    <BannerDois/>,
+    <Footer/>
     </>
   );
 }
