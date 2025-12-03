@@ -1,17 +1,33 @@
 header{
 
     display: flex;
-    border: solid;
-    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+   
+   
+
+    img{
+        width: 15%;
+        height: 15%;
+       
+    }
 
 
 
 }
 
+
 ul{
     display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-right: 40px;
+    
     li{
-        padding: 50px;
+        cursor: pointer;
     }
+      
     
 }
